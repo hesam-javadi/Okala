@@ -18,7 +18,7 @@ To run the project locally, follow these steps:
 
 ## UML Diagram
 
-Below is the UML diagram illustrating the structure and flow of the application:
+Below is the UML diagram illustrating the structure and flow of the application (It is a pity I didn't have time to make the diagram😢):
 
 ![UmlDiagram](img/UmlDiagram.png)
 
