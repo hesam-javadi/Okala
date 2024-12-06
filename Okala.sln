@@ -1,9 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35521.163 d17.12
+VisualStudioVersion = 17.12.35521.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Okala.API", "Okala.API\Okala.API.csproj", "{F8036D5C-6A24-4954-9EAF-0421FD76B750}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Okala.API", "src\Okala.API\Okala.API.csproj", "{F8036D5C-6A24-4954-9EAF-0421FD76B750}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Okala.Application", "src\Okala.Application\Okala.Application.csproj", "{7010D2CA-FFDD-403F-B06B-2BEA6D027399}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Okala.Domain", "src\Okala.Domain\Okala.Domain.csproj", "{0878102A-3DC1-4A93-870A-FD70D9989D9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Okala.Infrastructure", "src\Okala.Infrastructure\Okala.Infrastructure.csproj", "{3E144EDC-2E31-4E76-8408-6036A8D0A443}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Okala.Test", "tests\Okala.Test\Okala.Test.csproj", "{02FA3236-35DC-4D85-9A68-5D404B7C4C80}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2E801F1F-C6CE-4F37-A63E-945CE93AAD18}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{59CAD6B6-236F-4281-B14B-02F71A9BC5C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +27,31 @@ Global
 		{F8036D5C-6A24-4954-9EAF-0421FD76B750}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8036D5C-6A24-4954-9EAF-0421FD76B750}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8036D5C-6A24-4954-9EAF-0421FD76B750}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7010D2CA-FFDD-403F-B06B-2BEA6D027399}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7010D2CA-FFDD-403F-B06B-2BEA6D027399}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7010D2CA-FFDD-403F-B06B-2BEA6D027399}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7010D2CA-FFDD-403F-B06B-2BEA6D027399}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0878102A-3DC1-4A93-870A-FD70D9989D9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0878102A-3DC1-4A93-870A-FD70D9989D9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0878102A-3DC1-4A93-870A-FD70D9989D9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0878102A-3DC1-4A93-870A-FD70D9989D9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E144EDC-2E31-4E76-8408-6036A8D0A443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E144EDC-2E31-4E76-8408-6036A8D0A443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E144EDC-2E31-4E76-8408-6036A8D0A443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E144EDC-2E31-4E76-8408-6036A8D0A443}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02FA3236-35DC-4D85-9A68-5D404B7C4C80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02FA3236-35DC-4D85-9A68-5D404B7C4C80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02FA3236-35DC-4D85-9A68-5D404B7C4C80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02FA3236-35DC-4D85-9A68-5D404B7C4C80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F8036D5C-6A24-4954-9EAF-0421FD76B750} = {2E801F1F-C6CE-4F37-A63E-945CE93AAD18}
+		{7010D2CA-FFDD-403F-B06B-2BEA6D027399} = {2E801F1F-C6CE-4F37-A63E-945CE93AAD18}
+		{0878102A-3DC1-4A93-870A-FD70D9989D9D} = {2E801F1F-C6CE-4F37-A63E-945CE93AAD18}
+		{3E144EDC-2E31-4E76-8408-6036A8D0A443} = {2E801F1F-C6CE-4F37-A63E-945CE93AAD18}
+		{02FA3236-35DC-4D85-9A68-5D404B7C4C80} = {59CAD6B6-236F-4281-B14B-02F71A9BC5C5}
 	EndGlobalSection
 EndGlobal
