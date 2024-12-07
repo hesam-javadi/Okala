@@ -18,9 +18,10 @@ To run the project locally, follow these steps:
 
 ## UML Diagram
 
-Below is the UML diagram illustrating the structure and flow of the application (It is a pity I didn't have time to make the diagram😢):
+Below is the UML diagram illustrating the structure and flow of the application:
 
-![UmlDiagram](img/UmlDiagram.png)
+![OkalaDiagram](https://github.com/user-attachments/assets/02a9dda4-c9dc-40f0-8667-8ea16e0db0cb)
+
 
 ---
 
