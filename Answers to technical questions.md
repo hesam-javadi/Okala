@@ -6,7 +6,6 @@
    - Improve the Redis integration, making it more robust and efficient for caching.
    - Add rate-limiting validation to prevent abuse and ensure better API reliability.
    - Utilize Hangfire to create a recurring background job that fetches exchange rates for commonly used cryptocurrencies like Bitcoin and Ethereum. This would enhance the API's performance by reducing dependency on live API calls for frequently requested data.
-   - Include a UML Diagram in the README file to visualize the relationships between objects and provide a clear overview of the project's architecture. (I've added its section to the readme file, but I didn't have time to create the diagram 😢).
 2. **What was the most useful feature that was added to the latest version of your language of choice? Please include a snippet of code that shows how you've used it.**
    
    I think one of the most useful features in .NET 8 is the introduction of DateOnly and TimeOnly data types, which allow for precise handling of date and time without relying on DateTime when the extra information isn't needed. This improves clarity and reduces potential bugs caused by irrelevant data.
