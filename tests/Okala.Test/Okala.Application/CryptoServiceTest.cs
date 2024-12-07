@@ -9,6 +9,7 @@ using Moq;
 using Okala.Application.Interfaces.IRepositories;
 using Okala.Application.Services;
 using Okala.Domain.DTOs;
+using Okala.Domain.Request;
 using Okala.Domain.Response;
 using Okala.Domain.Settings;
 
@@ -42,7 +43,7 @@ namespace Okala.Test.Okala.Application
                 new OptionsWrapper<CurrencySetting>(currencySetting));
 
             // Act
-            var result = await service.GetCryptoQuoteAsync(symbol);
+            var result = await service.GetCryptoQuoteAsync(new CryptoQuoteRequest { CryptoSymbol = symbol });
 
             // Assert
             result.Should().NotBeNull();
